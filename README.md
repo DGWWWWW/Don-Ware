@@ -1,2 +1,2 @@
 # Don-Ware
-For beginners: A simple way to trace program execution using the serial monitor
+ For beginners: This is a simple way to track what part of your program is executing at the moment.  This is useful in state machines or if your program hangs up and you need to know where to look to find the problem.  Since a subroutine may execute several times in a row, only the first entry to a  subroutine is displayed until a different subroutine begins to execute. This prevents the display from loading up with excessive updates appearing on the Serial Monitor.
